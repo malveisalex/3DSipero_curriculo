@@ -1,0 +1,52 @@
+/* * {
+    outline: 1px dashed lightcoral;
+} */
+
+:root {
+    /* perfil de cores */
+    --primary-color:#0FC2C0 ;
+    --secondary-color: #0CABA8;
+    --tertiary-color:#008F8C ;
+    --quarternary-color: #015958;
+     --quinary-color:#023535;
+     --ligth-color: white;
+    --dark-color: black;
+    --grayscale: #f2f2f2;
+
+     /* tamanhos padrões */
+     --extra-small-size: 4px;
+     --small-size: 8px;
+     --medium-size: 16px;
+     --large-size: 32px;
+     --extra-large-size: 64px;
+}
+
+.header {
+    background: var(--primary-color);
+    background: linear-gradient(90deg, var(--quinary-color) 0%, var(--primary-color)100%);
+   }
+.header__title {
+    color: var(--ligth-color);
+}
+
+.header__social-icons {
+    color: var(--ligth-color);
+}
+
+.skills__column-left{
+    background-color: var(--quarternary-color);
+}
+
+.skills__title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--quarternary-color);
+
+}
+
+.skilss__lable {
+    font-size: 0.8rem;
+    color: var(--ligth-color);
+
+}
+
